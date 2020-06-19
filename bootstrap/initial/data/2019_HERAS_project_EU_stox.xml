@@ -14,10 +14,10 @@
       <respondingui>false</respondingui>
       <breakingui>false</breakingui>
       <fileoutput>true</fileoutput>
-      <parameter name="FileName1">input/acoustic/Acoustic_DK_26D4201908_StoX.xml</parameter>
-      <parameter name="FileName2">input/acoustic/Acoustic_GB-SCT_0919S_StoX.xml</parameter>
-      <parameter name="FileName3">input/acoustic/Acoustic_GER_06SL764.xml</parameter>
-      <parameter name="FileName4">input/acoustic/Acoustic_NLHERAS2019_StoX.xml</parameter>
+      <parameter name="FileName1">input/acoustic/2019_HERAS_input-acoustic_DK_stox.xml</parameter>
+      <parameter name="FileName2">input/acoustic/2019_HERAS_input-acoustic_GB-SCT_stox.xml</parameter>
+      <parameter name="FileName3">input/acoustic/2019_HERAS_input-acoustic_GER_stox.xml</parameter>
+      <parameter name="FileName4">input/acoustic/2019_HERAS_input-acoustic_NL_stox.xml</parameter>
       <output>AcousticData</output>
     </process>
     <process name="FilterAcoustic">
@@ -47,10 +47,10 @@
       <respondingui>false</respondingui>
       <breakingui>false</breakingui>
       <fileoutput>true</fileoutput>
-      <parameter name="FileName1">input/biotic/Biotic_DK_26D4201908_StoX.xml</parameter>
-      <parameter name="FileName2">input/biotic/Biotic_GB-SCT_0919S_StoX.xml</parameter>
-      <parameter name="FileName3">input/biotic/Biotic_GER_06SL764_StoX.xml</parameter>
-      <parameter name="FileName4">input/biotic/Biotic_NLHERAS2019_StoX.xml</parameter>
+      <parameter name="FileName1">input/biotic/2019_HERAS_input-biotic_DK_stox.xml</parameter>
+      <parameter name="FileName2">input/biotic/2019_HERAS_input-biotic_GB-SCT_stox.xml</parameter>
+      <parameter name="FileName3">input/biotic/2019_HERAS_input-biotic_GER_stox.xml</parameter>
+      <parameter name="FileName4">input/biotic/2019_HERAS_input-biotic_NL_stox.xml</parameter>
       <output>BioticData</output>
     </process>
     <process name="FilterBiotic">
@@ -90,7 +90,7 @@
       <breakingui>true</breakingui>
       <parameter name="ProcessData">Process(ReadProcessData)</parameter>
       <parameter name="UseProcessData">true</parameter>
-      <parameter name="FileName">${STOX}/reference/stratum/HERAS2017_StoX_polygons.txt</parameter>
+      <parameter name="FileName">2019_HERAS_polygons_EU_stox.txt</parameter>
       <output>ProcessData</output>
     </process>
     <process name="StratumArea">
