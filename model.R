@@ -6,6 +6,7 @@ taf.library(mgcv)
 #library(Rstox)
 options(java.parameters = "-Xmx2000m")
 library(rJava) 
+.jinit()
 
 data_mapping <- read.csv("bootstrap/data/data_mapping.csv")
 
