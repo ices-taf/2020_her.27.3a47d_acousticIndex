@@ -16,9 +16,9 @@ data_mapping <- read.csv("bootstrap/data/data_mapping.csv")
 
 
 
-mkdir("stox_project")
+mkdir("model")
 
-setwd('stox_project')
+setwd('model')
 
 project_years <- unique(data_mapping$year)
 
