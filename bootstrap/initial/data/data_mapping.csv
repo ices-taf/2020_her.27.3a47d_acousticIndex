@@ -1,0 +1,10 @@
+year,file,type,project,vessel,country
+2019,2019_HERAS_input-acoustic_DK_stox.xml,acoustic,2019_HERAS_project_EU_stox,,DK
+2019,2019_HERAS_input-acoustic_GB-SCT_stox.xml,acoustic,2019_HERAS_project_EU_stox,,GB-SCT
+2019,2019_HERAS_input-acoustic_GER_stox.xml,acoustic,2019_HERAS_project_EU_stox,,GER
+2019,2019_HERAS_input-acoustic_NL_stox.xml,acoustic,2019_HERAS_project_EU_stox,,NL
+2019,2019_HERAS_input-biotic_DK_stox.xml,biotic,2019_HERAS_project_EU_stox,,DK
+2019,2019_HERAS_input-biotic_GB-SCT_stox.xml,biotic,2019_HERAS_project_EU_stox,,GB-SCT
+2019,2019_HERAS_input-biotic_GER_stox.xml,biotic,2019_HERAS_project_EU_stox,,GER
+2019,2019_HERAS_input-biotic_NL_stox.xml,biotic,2019_HERAS_project_EU_stox,,NL
+2019,2019_HERAS_polygons_EU_stox.txt,polygons,2019_HERAS_project_EU_stox,,EU
