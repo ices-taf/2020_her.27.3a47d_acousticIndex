@@ -4,6 +4,7 @@ library(icesTAF)
 taf.library(Rstox)
 taf.library(mgcv)
 #library(Rstox)
+library(rJava); .jinit()
 
 data_mapping <- read.csv("bootstrap/data/data_mapping.csv")
 
