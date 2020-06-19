@@ -18,3 +18,5 @@ for(idxYear in project_years){
               "FillMissingData.csv")
   }
 }
+
+setwd('..')

@@ -44,3 +44,5 @@ for(idxYear in project_years){
     #saveProjectData(dataDirs[idxDataDir])
   }
 }
+
+setwd('../..')
