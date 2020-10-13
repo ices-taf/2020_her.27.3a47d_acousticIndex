@@ -13,4 +13,4 @@ dep.pck <- c(	"data.table",
 				"mgcv")
 install.packages(dep.pck, repos="http://cran.us.r-project.org", type="binary",lib="../../library")
 
-install.packages("ftp://ftp.imr.no/StoX/Download/Rstox/Rstox_1.11.tar.gz", repos=NULL,  lib="../../library")
+install.packages("ftp://ftp.imr.no/StoX/Download/Rstox/Rstox_1.11.tar.gz", repos=NULL,  lib="../../library",INSTALL_opts=c('--no-multiarch'))

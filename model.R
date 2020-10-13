@@ -3,9 +3,10 @@
 library(icesTAF)
 taf.library(Rstox)
 taf.library(mgcv)
+taf.library(rJava)
 #library(Rstox)
 options(java.parameters = "-Xmx2000m")
-library(rJava) 
+#taf.library(rJava)
 .jinit()
 
 data_mapping <- read.csv("bootstrap/data/data_mapping.csv")
