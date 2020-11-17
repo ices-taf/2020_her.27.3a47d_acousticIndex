@@ -42,7 +42,7 @@ write.taf(flr2taf(HERAS_baseline$stk.WBSS@mat),
           file = "WBSS_mat.csv",
           dir="output")
 # write WBSS weight at age
-write.taf(flr2taf(HERAS_baseline$stk.NSAS@stock.wt), 
+write.taf(flr2taf(HERAS_baseline$stk.WBSS@stock.wt), 
           file = "WBSS_wa.csv",
           dir="output")
 
